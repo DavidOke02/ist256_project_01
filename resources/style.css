@@ -87,3 +87,10 @@ footer{
     grid-area: footer;
     font-size: .9em;
 }
+
+.hero-image {
+    display: block;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
