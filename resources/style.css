@@ -57,6 +57,7 @@ nav a {
 
 body {
     display: grid;
+    background-color: whitesmoke;
     grid-template-columns: 180px auto;
     grid-template-rows: auto auto auto;
 
@@ -93,4 +94,104 @@ footer{
     align-self: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.resume-date {
+    color: dimgray;
+}
+
+.resume-section-title{
+    color: darkblue;
+    font-size: 1.1em;
+}
+
+.resume-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 12px;
+}
+
+.resume-section-subdetail {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#career-image{
+    display: block;
+    height: 250px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.club-box{
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "title none"
+        "image text";
+
+}
+
+.club-box h2 {
+    grid-area: title;
+    margin-left: 50px;
+}
+
+.club-box p{
+    grid-area: text;
+    align-self: center;
+}
+
+#club-image{
+    float: left;
+    height: 300px;
+    grid-area: image;
+}
+
+
+.album-box {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.album-item img {
+    height: 250px;
+    width: auto;
+}
+
+#link-box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.link-box-content-1 img{
+    height: 300px;
+}
+.link-box-content-2 img{
+    height: 200px;
+    position: relative;
+    top: 60px;
+}
+
+.link-box-content-2 p{
+    position: relative;
+    top: 100px;
+}
+
+.link-box-content-3 img{
+    height: 220px;
+    position: relative;
+    top: 60px;
+ }
+
+.link-box-content-3 p{
+    position: relative;
+    top: 80px;
+}
+
+.weblink-title {
+    font-size: 1.2em;
+    font-weight: bolder;
 }

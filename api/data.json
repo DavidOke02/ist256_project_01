@@ -1,10 +1,26 @@
-{
-  "name": "api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+[
+  {
+    "name": "Drumming",
+    "length": "9 years",
+    "description": "A passion for all things drums and percussion.",
+    "media-link": "resources/drums.png"
+    },
+  {
+    "name": "Exercising/Sports",
+    "length": "17 years",
+    "description": "Working out, going on walks/runs, and playing various sports",
+    "media-link": "resources/exercise.png"
   },
-  "private": true
-}
+  {
+    "name": "Traveling",
+    "length": "9 years",
+    "description": "Going from place to place, whether local or worldwide.",
+    "media-link": "resources/travel.png"
+  },
+  {
+    "name": "Computer Production",
+    "length": "10 years",
+    "description": "Includes CG, music, editing, and animation.",
+    "media-link": "resources/comp-production.png"
+  }
+]
